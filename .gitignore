@@ -1,0 +1,18 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# recall index (built locally by knowledge-recall-mcp; never commit)
+recall-index.sqlite
+*.sqlite
+.venv/
+
+# wiki-audit report
+.wiki-audit.log
+
+# wiki-graph addon output
+addons/wiki-graph/wiki-graph.html
+addons/wiki-graph/vendor/
