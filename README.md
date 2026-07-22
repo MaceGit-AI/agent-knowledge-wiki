@@ -61,6 +61,7 @@ What makes it different:
 - **`addons/wiki-graph`** — interactive graph visualization of the wiki (very lightweighted and simple viewer infused by the idea ob Obsidian).
 - **`sync.ps1` / `sync.sh`** — refresh this template from a live system:
   genericization (paths/names → placeholders) + built-in secret/leak checks.
+- **projects** follow a repeatable standard approach 
 
 ## 4. Bootstrap
 
