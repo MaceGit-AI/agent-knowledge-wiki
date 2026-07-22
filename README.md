@@ -1,4 +1,4 @@
-# knowledge-wiki-engine
+# Knowledge Memory Wiki Engine for Claude
 
 **A shared, verified, self-improving memory for AI agents. One brain — many tools.**
 
