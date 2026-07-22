@@ -58,7 +58,7 @@ What makes it different:
 - **`recall-mcp/`** — vendored recall MCP server (SQLite FTS5 + FastEmbed embeddings +
   sqlite-vec + Reciprocal-Rank-Fusion). Local-first, no API key.
 - **`addons/gpt-chat-mcp`** — cross-model sparring MCP (second opinion from GPT).
-- **`addons/wiki-graph`** — interactive graph visualization of the wiki.
+- **`addons/wiki-graph`** — interactive graph visualization of the wiki (very lightweighted and simple viewer infused by the idea ob Obsidian).
 - **`sync.ps1` / `sync.sh`** — refresh this template from a live system:
   genericization (paths/names → placeholders) + built-in secret/leak checks.
 
