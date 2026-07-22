@@ -40,9 +40,9 @@ What makes it different:
 - **Recall before research.** A local hybrid search MCP (semantic + keyword + rank
   fusion) surfaces prior learnings *before* an agent starts working — reuse, don't rediscover.
 - **Mistakes become rules.** Corrections turn into guardrails that load into every
-  future session. The system provably stops repeating its errors.
+  future session. The system provably stops repeating its errors. It memorizes the thoughtprocess.
 - **A team that coaches itself.** 14 generic agent roles; retrospectives convert
-  finished work and owner corrections into role, skill, and guardrail updates.
+  finished work and owner corrections into role, skill, and guardrail updates. More can be employed by asking claude.
   Adversarial review comes from a *different* model (GPT sparring), not self-review.
 
 ## 3. Features
