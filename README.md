@@ -41,15 +41,13 @@ What makes it different:
   fusion) surfaces prior learnings *before* an agent starts working — reuse, don't rediscover.
 - **Mistakes become rules.** Corrections turn into guardrails that load into every
   future session. The system provably stops repeating its errors. It memorizes the thoughtprocess.
-- **A team that coaches itself.** 14 generic agent roles; retrospectives convert
-  finished work and owner corrections into role, skill, and guardrail updates. More can be employed by asking claude.
-  Adversarial review comes from a *different* model (GPT sparring), not self-review.
+- **A team that coaches itself.** The roster is a talent pool, not a fixed team. Each project hires the smallest useful mix of roles — for example specifier, implementer, verifier, reviewer, researcher, security, and librarian — and may add domain-specific roles when new expertise is needed. New roles start on probation, earn a track record through verified work, and can later become reusable. Retrospectives turn finished work and owner corrections into role, skill, and guardrail updates. Adversarial review comes from a *different* model (GPT sparring), not self-review.
 
 ## 3. Features
 
 - `WIKI_PROTOCOL.md` — single source of truth, tool-neutral.
 - Wiki skeleton with page templates and generic example pages (replace or delete).
-- **Roster of 14 generic agent roles** (canonical briefs).
+- **Reusable agent-role roster** — canonical briefs; each project hires the smallest team it needs and may add domain-specific roles.
 - **`~/.claude` machinery** under `claude/`: agents, skills, commands, hooks.
 - **Slash commands for the loop**: `/spec` (request → small verifiable spec) ·
   `/verify` (run `VERIFIER.md`, report green/red) · `/learn` (capture verified
@@ -61,7 +59,7 @@ What makes it different:
 - **`addons/wiki-graph`** — interactive graph visualization of the wiki (very lightweighted and simple viewer infused by the idea ob Obsidian).
 - **`sync.ps1` / `sync.sh`** — refresh this template from a live system:
   genericization (paths/names → placeholders) + built-in secret/leak checks.
-- **projects** follow a repeatable standard approach 
+- **Repeatable project kickoff.** Every new project begins recall-first, then defines a goal-driven spec, a verifier, an environment contract, and a `TEAM.md`. `/karpathy-init` scaffolds this foundation; the project composes its team from the roster, and verified lessons flow back into the shared wiki.
 
 ## 4. Bootstrap
 
