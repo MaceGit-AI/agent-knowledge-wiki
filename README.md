@@ -81,4 +81,4 @@ See [`Wiki/guardrails/machinery-sync-engine-template.md`](Wiki/guardrails/machin
 
 ## License
 
-None — free sharing and improving - just let me know how you improved it. All rights reserved.
+None — free sharing and improving - just let me know how you improved it. Only obligation is to mention the source and the creator. All rights reserved.
